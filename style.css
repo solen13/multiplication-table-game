@@ -173,7 +173,7 @@ box-shadow:  0px 2px 6px rgb(15, 15, 15);;
   background-color:#FFFF8A ;
     margin-top: 10px;
     font-size: 36px;
-    font-family: cursive;
+  
     margin-bottom: 10px;
    z-index: 0;
     display: flex;
@@ -186,7 +186,7 @@ box-shadow:  0px 2px 6px rgb(15, 15, 15);;
 
     margin-top: 50px;
     font-size: 36px;
-    font-family: cursive;
+   
     margin: 40px 10px;
      color: #fcfcfc;
 }
@@ -236,7 +236,7 @@ background-color:#2B3A42;
 #cikti{
     opacity: 0;
     font-size: 20px;
-    font-family: cursive;
+   
     margin-bottom: 15px;
     background-color: #D1E5DB;
     padding: 5px 10px;
