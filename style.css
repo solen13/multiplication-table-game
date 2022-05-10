@@ -1,0 +1,229 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sayi{
+    color: #615b5b;
+}
+.genelKapsayici{
+    position: relative;
+}
+.seviye{
+    position: fixed;
+
+    width: 100%;
+    height: 100vh;
+    background-image:url(./peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    z-index: 99;
+
+}
+
+
+.baslik-giris h2{
+    font-size: 34px;
+    margin-top: 30px;
+
+        color: #fffdfd;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    background-color: #2b3a428f;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.seviye-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 60%;
+    background-image:#445761;
+    border-radius: 20px;
+     background-color: #3d4a5262;
+}
+.seviye-sec h1{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+     background-color:#4e6069;
+     margin-top: 10px;
+     border-radius: 14px;
+}
+.seviye-sec input{
+box-shadow:  0px 2px 6px rgb(15, 15, 15);;
+    padding: 10px 15px;
+    background-color: rgb(52, 198, 93);
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: rgb(251, 251, 251);
+    border: none;
+    text-shadow: 0px 2px 6px rgb(15, 15, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contener{
+    width: 100%;
+    height: 100vh;
+ background-image: url(./bacgrgand.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  
+    
+}
+
+.sure  {
+   position: absolute;
+   top: 0;
+   text-align: center;
+}
+.sure p {
+   
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b3a42;
+   
+  padding: 10px 15px;
+}
+#saniye{
+    padding: 10px 15px;
+    background-color: #4e6069;
+    position: absolute;
+    top: 0;
+    margin-top: 35px;
+    position: absolute;
+  margin-left: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 10px;
+ 
+}
+#sayaclar{
+    display: flex;
+   padding: 10px 15px;
+    height: auto;
+    width: 20%;
+    justify-content: space-around;
+
+}
+#sayaclar span{
+    color: rgb(129, 129, 120);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin:20px;
+
+}
+#sayaclar p{
+    
+    
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1f1c1c;
+
+    
+}
+
+.numbers{
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+   
+}
+.number{
+    width: 120px;
+    height: 120px;
+  background-color:#FFFF8A ;
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: cursive;
+    margin-bottom: 10px;
+   z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  clip-path: polygon(50% 5%, 69% 29%, 98% 35%, 75% 57%, 79% 91%, 49% 76%, 21% 91%, 25% 60%, 2% 35%, 33% 30%);
+  
+}
+.Carpi{
+
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: cursive;
+    margin: 40px 10px;
+     color: #fcfcfc;
+}
+#input-yazi{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #DFDDDC;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    width: 70%;
+    font-size: 24px;
+     color: #ffffff;
+      font-weight: 700;
+   
+}
+#input-yazi::placeholder{
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+#input-yazi::-webkit-outer-spin-button,
+#input-yazi::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#Sonuc{
+  
+    padding: 10px 15px;
+  border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 0;
+    width: 50%;
+    font-size: 24px;
+    box-shadow:  0px 2px 6px rgb(15, 15, 15);
+background-color:#2B3A42;
+  margin-bottom: 10px;
+ color: #ffffff;
+}
+#cikti{
+    opacity: 0;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+    background-color: #D1E5DB;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+    transition: 400ms all;
+
+}
+
+.Game-over{
+    display: none;
+}

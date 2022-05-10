@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çarpım-Tablosu</title>
+    <link rel="stylesheet" href=" style.css">
+
+</head>
+<body>
+
+    <div class="genelKapsayici">
+
+
+
+    <div class="seviye">
+        <div class="baslik-giris">
+            <h2>Çarpım Tablosu <br> Oyunu</h2> <br>
+            
+          
+        </div>
+        <div class="seviye-sec">
+      <h1>Seviye Seç</h1>
+        <input id="Kolay" type="button" value="Kolay">
+        <input id="Orta" type="button" value="Orta">
+        <input  id="Zor" type="button" value="Zor">
+    
+        </div>
+    
+
+    </div>
+
+    <div class="contener">
+     <div class="sure">
+   <p >Kalan Süre</p>
+<div id="saniye"> 60 </div>
+     </div>
+
+
+
+
+        <div id="sayaclar">
+
+       <span >   Doğru <p id="Sayac"> 0 </p> </span> 
+         <span> Yanlış <p id="SayacYanlis">0 </p> </span>
+            </div>
+
+       <div class="numbers">
+           <div class="number">
+        <p id="Sayi1" class="sayi"></p>
+       </div>
+        <p class="Carpi"> X</p>
+       <div class="number">
+        <p id="Sayi2" class="sayi"> </p>
+        </div>
+            </div>
+
+
+            <input  id="input-yazi" type="number" placeholder="Sonuç Gir">
+            <p id="cikti"></p> 
+
+
+
+            <input id="Sonuc" type="button" value="Sonuç">
+            
+            
+
+     
+
+</div>
+
+
+
+<div  class="Game-over">
+    Oyun bitti
+    <input type="button"  class="new-game-btn" value="Yeniden oyna">
+</div>
+
+</div>
+
+
+
+
+
+    <script src="./app.js"></script>
+
+    
+</body>
+</html>
