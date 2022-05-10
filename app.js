@@ -4,6 +4,10 @@ let cıktıSayi2=document.querySelector('#Sayi2');
 let cıktı=document.querySelector('#cikti');
 let inputyazi=document.querySelector('#input-yazi');
 let SonucBTN=document.querySelector('#Sonuc');
+
+let sayaclar1=document.querySelector('#sayaclar1');
+let sayaclar2=document.querySelector('#sayaclar2');
+
 let contener=document.querySelector('.contener');
 let Sayac1=document.querySelector('#Sayac');
 let Sayacyanlis=document.querySelector('#SayacYanlis');
@@ -13,11 +17,17 @@ var sayac=0;
 var sayacyanis=0;
 var deger;
 var saniye=60;
+var odak;
 contener.addEventListener('click',e=>{
-      inputyazi.focus();
+inputOdak();
+    
 })
+inputOdak();
+function inputOdak(){
+odak  =   inputyazi.focus();
 
-
+ 
+}
 
 
 
@@ -121,7 +131,7 @@ function yenileme(numbers1,numbers2){
       
       cıktı.textContent='cevap doğru';
         
-        inputyazi.focus();
+      inputOdak();
 
         setTimeout(() => {  
      
